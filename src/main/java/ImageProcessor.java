@@ -89,7 +89,7 @@ public class ImageProcessor {
 
     private static void printHelp() {
         System.out.println("Использование программы:");
-        System.out.println("java -jar application.jar help");
-        System.out.println("java -jar application.jar mem <путь_к_изображению> '<текст>' <позиция: center, top, bottom>");
+        System.out.println("java ImageProcessor help");
+        System.out.println("java ImageProcessor mem <путь_к_изображению> '<текст>' <позиция: center, top, bottom>");
     }
 }
